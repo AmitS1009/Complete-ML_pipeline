@@ -1,4 +1,4 @@
-# 📌 Complete ML Pipeline (MLOps Project)
+# 📌 Complete Spam Classifier Pipeline (MLOps Project)
 
 This repository implements a **modular and production-ready ML pipeline** with proper logging, experiment tracking, and reproducibility using **DVC** (Data Version Control).  
 
