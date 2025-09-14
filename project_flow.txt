@@ -83,3 +83,20 @@ with Live(save_dvc_exp=True) as live:
     live.log_metric('recall', recall_score(y_test, y_test))
 
     live.log_params(params)
+
+
+ADDING a remote S3 storage to DVC
+
+login to AWS console
+create an IAM user (required mastercard/visa)
+create S3
+
+pip install dvc[s3]
+pip install awscli
+asw configure
+
+dvc remode add -d dvcstore s3.//<bucketname>
+dvc commit
+dvc push 
+
+git add,  commit(added to s3), push
